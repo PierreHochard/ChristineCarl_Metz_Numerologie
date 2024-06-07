@@ -304,6 +304,7 @@ body{
 }
 
 .container-P3 .texte{
+    font-size: small;
     margin-top: 30%;
     margin-right: 15%;
     padding: 10px;      
