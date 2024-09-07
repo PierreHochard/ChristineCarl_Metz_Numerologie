@@ -262,29 +262,12 @@ body{
 
 .container-P3 .Temoignage1, .container-P3 .Temoignage2, .container-P3 .Temoignage3{
     margin: 2%;
-    margin-top: 20%;
     height: 100%;
     max-height: 520px; /* Set max height */
-    padding-top: 180px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 0.5s ease-in-out;
-}
-
-.container-P3 .Temoignage1{
-    background-image: url("images/Formation1.jpg");
-    background-size: cover;
-    clip-path: polygon(28% 0, 100% 0%, 72% 100%, 0% 100%);
-}
-.container-P3 .Temoignage2{
-    background-image: url("images/Formation2.jpg");
-    background-size: cover;
-    clip-path: polygon(28% 0, 100% 0%, 72% 100%, 0% 100%);
-}
-.container-P3 .Temoignage3{
-    background-image: url("images/Formation3.jpg");
-    background-size: cover;
-    clip-path: polygon(28% 0, 100% 0%, 72% 100%, 0% 100%);
 }
 
 .container-P3 .Temoignage1:hover, .container-P3 .Temoignage2:hover, .container-P3 .Temoignage3:hover{
@@ -293,15 +276,6 @@ body{
         
 }
 
-.container-P3 .Temoignage1:hover{
-    background-image: url("images/Formation1_BW.jpg");
-}
-.container-P3 .Temoignage2:hover{
-    background-image: url("images/Formation2_BW.jpg");
-}
-.container-P3 .Temoignage3:hover{
-    background-image: url("images/Formation3_BW.jpg"); 
-}
 
 .container-P3 .texte{
     font-size: small;
@@ -313,14 +287,6 @@ body{
     transition: 0.5s ease-in-out;
 }
 
-.container-P3 .Temoignage1:hover .texte, .container-P3 .Temoignage2:hover .texte, .container-P3 .Temoignage3:hover .texte{
-    background: transparent;
-    color: transparent;
-}
-
-.container-P3 .Temoignage1:hover h3, .container-P3 .Temoignage2:hover h3, .container-P3 .Temoignage3:hover h3{
-    color: transparent;
-}
 
 .container-P3 h3{
     color: #d6be82;
